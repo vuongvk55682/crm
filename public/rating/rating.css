@@ -1,0 +1,15 @@
+#stars-readonly span.glyphicon{
+	font-size: 18px;
+	color: #DE752F;
+	cursor: pointer;
+}
+#stars-existing span.glyphicon{
+	font-size: 18px;
+	color: #DE752F;
+	cursor: pointer;
+}
+.stars-existing span.glyphicon{
+	font-size: 18px;
+	color: #DE752F;
+	cursor: pointer;
+}

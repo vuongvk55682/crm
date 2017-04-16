@@ -1,0 +1,46 @@
+.class_1 {
+ color: #f94342;
+ font-weight: bold;
+ padding: 15px;
+ margin: 5px;
+ a {
+ color: #fff;
+ text-decoration: underline;
+ &:hover,&:visited {
+ color: #f3f3f3;
+ text-decoration: none;
+ }
+ }
+}
+.menu{
+	ul{
+		text-decoration: none;
+		li{
+			color: #000;
+			a{
+				padding: 5px;
+			}
+			&:a{
+				margin: 5px;
+			}
+		}
+	}
+}
+$turn: yes;
+%fuck_you { 
+	color: #red;
+	margin: 5px 10px;
+}
+@if $turn == yes{
+	.navv{
+		@extend %fuck_you;
+	}
+}
+body{
+	.container{
+		with:1000px;
+		#header{
+			border: 1px solid red;
+		}
+	}
+}
